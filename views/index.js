@@ -1,5 +1,4 @@
 
-
 const unorder = document.getElementById('arreglo')
 const order = document.getElementById('arregloOrdenado')
 const btn_limpiar=document.getElementById('limpiar')
@@ -195,3 +194,7 @@ function selectionSort(arr) {
     return arrOfNums
   }
   
+
+
+
+
