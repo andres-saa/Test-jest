@@ -17,11 +17,9 @@ function bubbleSort(array){
             flag = true;
             }
         }
-        // console.log(array);
-        return array
+     
         if(!flag){
-            console.log(array)
-            return;
+            return array
         }
 }}
 
