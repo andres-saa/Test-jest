@@ -1,5 +1,6 @@
 
-export default function bubbleSort(array){
+
+function bubbleSort(array){
     let flag = false;
     for(var i = 0; i <= array.length-1; i++){
         flag = false;
@@ -17,10 +18,11 @@ export default function bubbleSort(array){
             }
         }
         // console.log(array);
-        order.innerHTML= array
+        return array
         if(!flag){
             console.log(array)
             return;
         }
 }}
 
+export {bubbleSort}
