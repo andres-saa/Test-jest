@@ -7,21 +7,23 @@
     
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 50vw;
+    background-color: #e40613;
 
     align-items: center;
     justify-content: center;
 
     border: 2px solid crimson;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 20px;
+    min-width: 600px;
 }
 
 img{
 
-    width: 50%;
+    width: 20%;
     margin: auto;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .buttons{
@@ -37,22 +39,56 @@ img{
 
 button{
     width: 100%;
-    background-color: #000;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 24px;
     padding: 5px 0;
+    border:none
 }
 
 button:hover{
     background-color: rgba(161, 0, 0, 0.749);
 
     transition: 0.2s;
+    color: white;
+}
+
+
+textarea{
+
+font-size: 24px;
+width: 100%;
+height: auto;
+border-radius: 10px;
+
 }
 
 
 p{
+    font-size: 24px;
+   
+    height: auto;
+    color: white;
+    
+    }
 
-font-size: 24px;
+textarea{
+    height:20vh;
+    resize: none;
+    border: 2px solid rgba(161, 0, 0, 0.749);
+
+
+}
+
+.arreglo-desordenado{
+
+    width: 100%;
+
+    overflow: unset;
+}
+
+#arregloOrdenado{
+    set-editable:none
 }
