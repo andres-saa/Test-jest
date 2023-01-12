@@ -23,4 +23,4 @@ function bubbleSort(array){
         }
 }}
 
-export {bubbleSort}
+module.exports = bubbleSort
