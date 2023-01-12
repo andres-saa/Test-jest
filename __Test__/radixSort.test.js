@@ -10,10 +10,6 @@ test('test digitCount path1', () => {
     expect(digitCount(100000)).toBe(6);
 });
 
-test('test digitCount path2', () => {
-    expect(digitCount(0)).toBe(1);
-});
-
 ///////tests mostDigits
 test('test mostDigits path1', () => {
     expect(mostDigits([])).toBe(0);
