@@ -11,4 +11,4 @@ function insertionSort(arr) {
     return arr
   }
   
-export {insertionSort}
+module.exports=insertionSort
