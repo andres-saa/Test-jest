@@ -1,3 +1,10 @@
+function swap(items, leftIndex, rightIndex){
+    var temp = items[leftIndex];
+    items[leftIndex] = items[rightIndex];
+    items[rightIndex] = temp;
+}
+
+
 function partition(items, left, right) {
     var pivot   = items[Math.floor((right + left) / 2)], //middle element
         i       = left, //left pointer
@@ -10,10 +17,7 @@ function partition(items, left, right) {
             j--;
         }
         if (i <= j) {
-            //sawpping two elements
-            var temp = items[leftIndex];
-            items[leftIndex] = items[rightIndex];
-            items[rightIndex] = temp;
+            swap(items, i, j); //sawpping two elements
             i++;
             j--;
         }
@@ -34,5 +38,6 @@ function quickSort(items, left, right) {
     }
     return items
 }
-  
-  export {quickSort}
+
+module.exports = {quickSort, swap, partition}
+//export {quickSort}

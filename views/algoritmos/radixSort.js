@@ -33,6 +33,6 @@ function getDigit(num, place) {
     return arrOfNums
   }
   
-export {radixSort}
-
+//export {radixSort}
+module.exports = {radixSort, getDigit, mostDigits, digitCount}
 
